@@ -1,7 +1,7 @@
 import type { Product } from '../types/product';
 
 export function ProductCard({ product }: { product: Product }) {
-  const inStock = product.stock > 0;
+  // const inStock = product.stock > 0;
 
   return (
     <article className="overflow-hidden flex flex-col group">
